@@ -34,6 +34,6 @@ public class Cliente {
         System.out.println("El cliente ha sido registrado exitosamente");    
     }
     public void MostrarInformacion() {System.out.println(Informacion del clliente \n};
-     {System.out.println(nombre+""+apellido""+corre
-)};
+     {System.out.println(nombre+""+apellido""+correo)};
 
+ 
