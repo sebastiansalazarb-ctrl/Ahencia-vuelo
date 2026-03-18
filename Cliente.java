@@ -6,9 +6,9 @@ public class Cliente {
     protected String apellido;
     protected String telefono;
     protected String cedula;
+    protected String direccion;
     
-    
-    public Cliente(String nombre, String apellido, String telefono,String cedula ) {
+    public Cliente(String nombre, String apellido, String telefono,String cedula, String direccion) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.telefono = telefono;
@@ -19,13 +19,19 @@ public class Cliente {
     public String getApellido(){return apellido;}
     public String getTelefono(){return telefono;}
     public String getCedula(){return cedula;}
+    public String get(){return direccion;}
      
      
     public String getNombreCompleto() {
         return nombre + " " + apellido;
     }
 
+    
+
     public void mostrarInfo() {
         System.out.println("Nombre: " + getNombreCompleto());
         System.out.println("Telefono: " + telefono);
+        System.out.println("Cedula: " + cedula);
+        System.out.println("Direccion: " + direccion);
     }
+}
