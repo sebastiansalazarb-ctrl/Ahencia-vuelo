@@ -1,7 +1,5 @@
 public class Cliente {
     
-  
-
     protected String nombre;
     protected String apellido;
     protected String telefono;
