@@ -1,4 +1,5 @@
 public class Cliente {
+    
     protected String nombre;
     protected String apellido;
     protected String telefono;
@@ -30,3 +31,11 @@ public class Cliente {
         System.out.println("Direccion: " + direccion);
     }
 }
+    public RegistraCliente(){
+
+        System.out.println("El cliente ha sido registrado exitosamente");    
+    }
+    public void MostrarInformacion() {System.out.println(Informacion del clliente \n};
+     {System.out.println(nombre+""+apellido""+correo)};
+
+ 
