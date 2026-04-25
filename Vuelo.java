@@ -4,6 +4,7 @@ public class Vuelo {
     public int telefono;
     public int hora;
     public String ubicacion;
+    public String precio;
     public Vuelo(String nombre, int telefono, int hora, String ubicacion) {
         this.nombre = nombre;
         this.telefono = telefono;
